@@ -1,0 +1,10 @@
+let music = ["Джаз", "Блюз"];
+console.log(music);
+music.push("Рок-н-ролл");
+console.log(music);
+music[Math.floor((music.length - 1) / 2)] = "Классика";
+console.log(music);
+music.shift();
+console.log(music);
+music.unshift("Рэп", "Регги");
+console.log(music);
